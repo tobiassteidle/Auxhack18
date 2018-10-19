@@ -7,7 +7,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.google.cloud:google-cloud-dialogflow:0.67.0-alpha'
+    compile 'com.google.cloud:google-cloud-speech:0.56.0-beta'
 }
 
 task wrapper(type: Wrapper) {
