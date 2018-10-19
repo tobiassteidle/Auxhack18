@@ -15,3 +15,10 @@ Avatar im Follow Mode (folgt dem erkannten Gesicht auf der Kamera)
 Get: http://localhost:8079/avatar/speak/
 Avatar im Speak Mode (Sprechblase wird angezeigt)
 
+##### Multiply:
+Get: http://localhost:8079/avatar/multiply/
+Avatar wird mehrfach angezeigt
+
+##### Masculine:
+Get: http://localhost:8079/avatar/masculine/
+Avatar wird männlich angezeigt
