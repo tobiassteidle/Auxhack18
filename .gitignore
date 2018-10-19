@@ -34,3 +34,7 @@ build/
 frontend/
 *.pyc
 *.mp3
+*.classpath
+*.project
+bin/
+*.settings
