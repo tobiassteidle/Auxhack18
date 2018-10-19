@@ -4,12 +4,16 @@ sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
+    maven {
+        url "https://csspeechstorage.blob.core.windows.net/maven/"
+    }
 }
 
 dependencies {
     compile 'com.google.cloud:google-cloud-speech:0.56.0-beta'
     compile 'com.google.cloud:google-cloud-texttospeech:0.56.0-beta'
     compile 'com.google.cloud:google-cloud-dialogflow:0.67.0-alpha'
+    compile 'com.microsoft.cognitiveservices.speech:client-sdk:1.0.0'
 
     compile 'net.sourceforge.argparse4j:argparse4j:0.8.1'
 }
