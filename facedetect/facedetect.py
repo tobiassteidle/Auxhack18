@@ -12,7 +12,12 @@ avatarCom = AvatarCommunicator()
 #the OpenCV library
 #Make sure that you copy this file from the opencv project to the root of this
 #project folder
+
+#faceCascade = cv2.CascadeClassifier('haarcascades/haarcascade_eye.xml')
 faceCascade = cv2.CascadeClassifier('haarcascades/haarcascade_frontalface_default.xml')
+#faceCascade = cv2.CascadeClassifier('haarcascades/haarcascade_frontalcatface_extended.xml')
+
+
 
 #The deisred output width and height
 OUTPUT_SIZE_WIDTH = 775

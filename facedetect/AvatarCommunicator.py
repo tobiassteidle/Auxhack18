@@ -11,8 +11,8 @@ class AvatarCommunicator:
         pass
 
     def lookat(self, normalized):
-        print(-(normalized + OFFSET))
         requests.get(LOOKAT_URL + str(-(normalized + OFFSET)))
 
     def reset(self):
         requests.get(IDLE_URL)
+        pass
