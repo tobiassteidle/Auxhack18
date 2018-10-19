@@ -32,7 +32,7 @@ public class Text2Speech {
         try (TextToSpeechClient textToSpeechClient = TextToSpeechClient.create()) {
             // Set the text input to be synthesized
             SynthesisInput input = SynthesisInput.newBuilder()
-                    .setText("Danke.")
+                    .setText("Hallo mein Name ist Vera. Ich bin froh ein Projekt beim Auxhack 2018 zu sein.")
                     .build();
 
             // Build the voice request, select the language code ("en-US") and the ssml voice gender
