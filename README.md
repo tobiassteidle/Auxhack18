@@ -19,6 +19,6 @@ Avatar im Speak Mode (Sprechblase wird angezeigt)
 Get: http://localhost:8079/avatar/multiply/
 Avatar wird mehrfach angezeigt
 
-##### Masculine:
-Get: http://localhost:8079/avatar/masculine/
-Avatar wird männlich angezeigt
+##### Chicken:
+Get: http://localhost:8079/avatar/chicken/
+Als Avatar wird ein Hühnchen angezeigt
